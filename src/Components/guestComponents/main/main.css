@@ -1,0 +1,14 @@
+.main {
+    /* align-items: center;
+    text-align: center;	
+     overflow-y:auto;  */
+
+    /* height: 500px; */
+    /* position : center;  */
+}
+.about{
+    height: 40%; 
+    overflow:hidden; 
+   
+}
+

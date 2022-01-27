@@ -1,0 +1,37 @@
+.layout {
+	height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    /* display: grid; 
+    grid-template-rows: 18% 77% 5%; repeat(3, 1fr); */
+    position: absolute;
+
+     display: flex;
+     flex-direction: column; 
+}
+
+.layout>* {
+    align-items: center;
+    position : center; 
+    text-align: center;	
+}
+
+.errors{
+    color: red;
+}
+
+footer{
+    margin-bottom: 0%;
+    text-align: center;
+}
+.layout>main{
+    background-color: #eeeef4;
+}
+/* main{
+    display: flex;
+    align-items: center;
+    margin: auto;
+} */
+
+
